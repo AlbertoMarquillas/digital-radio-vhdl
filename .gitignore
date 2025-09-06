@@ -1,0 +1,22 @@
+# VHDL / simulators
+work-obj93.cf
+*.vcd
+*.ghw
+*.wlf
+*.cf
+
+# Simulation outputs
+sim/*
+!sim/.gitkeep
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Generated docs
+docs/*.png
+docs/*.svg
+
+# OS cruft
+.DS_Store
+Thumbs.db
