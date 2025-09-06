@@ -1,6 +1,18 @@
 # digital-radio-vhdl
 
+
 A complete **QPSK transmitter** designed and implemented in **VHDL**. This repository organizes the source code, testbenches, and documentation of a full digital radio chain, originally developed as a university practice, but restructured and documented as a standalone project.
+
+
+---
+
+
+## 📛 Badges
+![Language](https://img.shields.io/badge/language-VHDL-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Simulator](https://img.shields.io/badge/simulator-GHDL-orange)
+![Release](https://img.shields.io/github/v/release/AlbertoMarquillas/digital-radio-vhdl)
+
 
 ---
 
@@ -69,6 +81,19 @@ The generated `.vcd` files can be opened with [GTKWave](http://gtkwave.sourcefor
 ## 📖 Documentation
 - `docs/Memoria_practica.pdf` — original project report with theoretical background and results.
 - `src/nco_dds32/README.md` — explanation of the Vivado DDS Compiler IP configuration.
+
+---
+
+
+## 💡 What I learned
+Working on this project gave me hands-on experience with:
+- **Digital modulation (QPSK)** and its practical implementation in VHDL.
+- **Interpolation and filtering** using zero-padding and Root-Raised Cosine FIR.
+- **Numerically Controlled Oscillators (DDS/NCO)** and parameter calculation.
+- Organizing a **modular VHDL project** with clear separation of blocks and testbenches.
+- Using **Vivado IPs** alongside handwritten VHDL for a real communication system.
+- Documenting and restructuring a university project into a **professional-grade repository**.
+
 
 ---
 
